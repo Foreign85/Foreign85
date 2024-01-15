@@ -1,0 +1,15 @@
+git clone https://github.com/QuantConnect/Lean.git
+using QuantConnect.Algorithm.Framework;
+
+public class MyAlgorithm : QCAlgorithm
+{
+    public override void Initialize()
+    {
+        // Inizializza il tuo algoritmo qui
+    }
+
+    public override void OnData(Slice slice)
+    {
+        // Logica di trading qui
+    }
+}
